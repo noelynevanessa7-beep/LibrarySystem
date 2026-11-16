@@ -1,7 +1,10 @@
 # Library Book Reservation and Borrowing System
 
-WinForms (C#, .NET 8) desktop app with a PostgreSQL database, built with the MVC pattern.
-Student: Kalaki Noelyn Vanessa - ID 27540
+WinForms (C#, .NET 8) desktop app with a database, built with the MVC pattern.
+
+Student: Kalaki Noelyn Vanessa 
+
+ID 27540
 
 ## Structure (MVC)
 - `Models/`      entities + database access (Npgsql repositories, password hashing)
@@ -32,14 +35,3 @@ Student: Kalaki Noelyn Vanessa - ID 27540
 | REQ-3.x reservations | `ReservationController`, `ReservationRepository.ProcessHolds` |
 | REQ-4.x loan desk | `LoanController`, `LoanDeskView`, `MyLoansView` |
 | REQ-5.x overdue and reminders | `ReportController`, `OverdueView`, notifications |
-
-## Upload to GitHub
-```
-git init
-git add .
-git commit -m "Library Book Reservation and Borrowing System (WinForms + PostgreSQL, MVC)"
-git branch -M main
-git remote add origin https://github.com/<your-username>/LibrarySystem.git
-git push -u origin main
-```
-Before pushing, replace your real password in `appsettings.json` with `YOUR_PASSWORD`.
