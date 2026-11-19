@@ -1,6 +1,6 @@
 # Library Book Reservation and Borrowing System
 
-WinForms (C#, .NET 8) desktop app with a database, built with the MVC pattern.
+WinForms C# desktop app with a database, built with the MVC pattern.
 
 Student: Kalaki Noelyn Vanessa 
 
@@ -18,16 +18,16 @@ ID 27540
 3. Open `appsettings.json` and put your PostgreSQL password in the connection string.
 4. Open the folder in Visual Studio (File > Open > Project, choose `LibrarySystem.csproj`) and press F5.
    Or in a terminal: `dotnet run`
-5. First start creates the tables, 5 sample books and one administrator:
+5. One administrator:
    `admin@library.com` / `Admin@123`
 
-## Try it
+## How it works
 1. Log in as the administrator and create a librarian account.
 2. Register two members (Register button on the login screen).
 3. Log in as the librarian: add books, issue a book to a member (member number), record returns, see overdue loans.
 4. Log in as a member: search, reserve a book with no free copy, cancel, renew, read notifications.
 
-## Requirements map
+## Requirements 
 | Requirement | Where |
 |---|---|
 | REQ-1.x accounts and roles | `AuthController`, `Session`, tabs in `MainForm` |
